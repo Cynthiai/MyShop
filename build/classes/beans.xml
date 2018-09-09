@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="CategoryService" class="com.wpp.service.impl.CategoryServiceImpl"></bean>
+	<bean id="ProductService" class="com.wpp.service.impl.ProductServiceImpl"></bean>
+	<bean id="UserService" class="com.wpp.service.impl.UserServiceImpl"></bean>
+
+   <bean id="ProductDao" class="com.wpp.dao.impl.ProductDaoImpl"/>
+   <bean id="UserDao" class="com.wpp.dao.impl.UserDaoImpl"/>
+   <bean id="CategoryDao" class="com.wpp.dao.impl.CategoryDaoImpl"/>
+</beans>
